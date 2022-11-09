@@ -1,0 +1,41 @@
+@font-face{
+    font-family: 'Cherry Swash', cursive;;
+    src: url('https://fonts.googleapis.com/css2?family=Cherry+Swash&display=swap');
+}
+
+body {
+    font-family: 'Cherry Swash', cursive;
+}
+
+.left-position-list {
+    list-style-type: upper-roman;
+}
+
+.right-position-list {
+    list-style-type: square;
+}
+
+.water-info h2, .water-on-the-Earth h2,
+.water-properties h2{
+    text-align: center;
+}
+
+.water-info p {
+    column-count: 3;
+    column-gap: 50px;
+}
+
+table {
+    width: 30%;
+}
+
+table thead tr th, table tbody tr th {
+    border: 3px dashed red;
+    background-color: orange;
+}
+
+table tbody tr td{
+    border: 3px solid green;
+    background-color: yellow;
+}
+
