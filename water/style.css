@@ -16,7 +16,7 @@ body {
 }
 
 .water-info h2, .water-on-the-Earth h2,
-.water-properties h2{
+.water-properties{
     text-align: center;
 }
 
@@ -38,4 +38,11 @@ table tbody tr td{
     border: 3px solid green;
     background-color: yellow;
 }
+
+.water-properties dl{
+    display: inline-block;
+    text-align: left;
+
+}
+
 

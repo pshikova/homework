@@ -1,0 +1,64 @@
+h1 {text-align: center;}
+
+.header-navigation ul{
+    list-style-type: none;
+    text-align: center;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.header-navigation ul li {
+    display: inline-block;
+    padding: 0 50px;
+}
+
+.header-navigation ul li a{text-decoration: none;}
+
+.posts h2 {
+    text-align: center;
+    color:#BA0082;
+}
+
+.posts img {
+    display: block;
+    margin: 0 auto;
+}
+
+.posts h3 {text-align: center;}
+
+.posts table {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 800px;
+    border-collapse: collapse;
+}
+.posts table thead th{
+    color:#819F00;
+    font-size: 25px;
+    text-align: left;
+}
+
+.posts table tr {
+    border-bottom: 1px solid #EFEFEF;
+    padding: 20px 0;
+}
+
+.posts table tr td {
+    color: #7A7A7A;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 20px 0;
+}
+
+.posts footer{
+    text-align: center; 
+    margin-top: 20px;
+    color: #7A7A7A;
+}
+
+.about-posts h2 {
+    color:#819F00;
+    text-align: center;
+}
+
+.about-posts p {margin: 0 50px;}
