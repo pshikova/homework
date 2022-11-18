@@ -1,0 +1,13 @@
+h1 {text-align: center;}
+iframe {
+    margin-bottom: 20px;
+}
+.image-content {
+    max-width: 23.3%;
+    float: left;
+    padding: 0 11px;
+}
+.image-content img {
+    width: 100%;
+    height: 250px;
+}
