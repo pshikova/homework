@@ -1,0 +1,10 @@
+.menu {list-style-type: none;}
+
+.menu li a{
+    display: block;
+    text-decoration: none;
+    background: #000000;
+    color: #ffffff;
+    width: 100px;
+    margin-top:15px;
+}
