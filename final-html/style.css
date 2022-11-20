@@ -1,4 +1,7 @@
-.menu {list-style-type: none;}
+.menu {
+    list-style-type: none;
+    padding-left: 0;
+}
 
 .menu li a{
     display: block;
@@ -7,4 +10,28 @@
     color: #ffffff;
     width: 100px;
     margin-top:15px;
+}
+
+table {
+    border-collapse:collapse;
+    width: 100%;
+}
+
+table td {
+    border: 1px solid #000000;
+}
+
+table .blue-bg {
+    background-color: #0000ff;
+    color:#ffffff;
+}
+
+.gallery .image {
+    width: 450px;
+    height: 250px;
+}
+
+.gallery .image img {
+    display: block;
+    width: 100%;
 }
