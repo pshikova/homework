@@ -1,0 +1,42 @@
+.menu {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.menu li{display: inline-block;}
+.menu li a{
+    display: block;
+    text-decoration: none;
+    background: #000000;
+    color: #ffffff;
+    width: 100px;
+}
+
+table {
+    border-collapse:collapse;
+    width: 100%;
+}
+
+table td {
+    border: 1px solid #000000;
+}
+
+table .blue-bg {
+    background-color: #0000ff;
+    color:#ffffff;
+}
+
+.gallery .image {
+    width: 32.3%;
+    height: 250px;
+    float: left;
+    padding: 5px 6px;
+
+}
+
+.gallery .image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
