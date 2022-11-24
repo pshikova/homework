@@ -4,13 +4,16 @@
     text-align: center;
 }
 
-.menu li{display: inline-block;}
-.menu li a{
-    display: block;
-    text-decoration: none;
-    background: #000000;
-    color: #ffffff;
+.menu li{
+    display: inline-block;
     width: 100px;
+    background-color: #000000;
+}
+.menu li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    width: 100%;
 }
 
 table {
