@@ -55,3 +55,8 @@ article h2 {
     float: right;
     padding-left: 15px;
 }
+
+.different-text {
+    color: #ff0000;
+    font-weight: 700;
+}
