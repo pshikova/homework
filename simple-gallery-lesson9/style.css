@@ -1,0 +1,31 @@
+.gallery {
+    width: 25%;
+    height: auto;
+    padding:10px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.gallery .box-content {
+    border: 2px solid #ff0000;
+}
+
+.gallery .image {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.gallery .image img {
+    display: block;
+    width: 100%;
+}
+
+.gallery .image .mock-up {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    color: #ffffff;
+}
