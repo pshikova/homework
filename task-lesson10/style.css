@@ -1,0 +1,136 @@
+body {
+    background-color: rgba(245, 239, 242, 0.8);
+    text-align: center;
+}
+header ul {
+    background-color: grey;
+    display: inline-block;
+    margin: auto;
+    padding-left: 0;
+    border-radius: 10px;
+    /* display: flex;
+    justify-content: center; */
+    list-style-type: none;
+}
+
+header li {
+    display: inline-block;
+}
+
+header li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 40px;
+    color: rgba(250, 250, 250, 250);
+    text-transform: uppercase;
+}
+
+header li:nth-child(1) {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+header li:nth-child(5){
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+header li a:hover {
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+section{
+    background: white;
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    padding: 20px;
+    border-radius: 20px;
+    color: gray;
+    margin-top: 20px;
+    position: relative;
+}
+
+#title {
+    padding: 15px 10px;
+    border: 2px solid #000000;
+    border-radius: 3px;
+}
+
+#btn {
+    background: green;
+    padding: 17px 30px;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.tick {
+    visibility: hidden;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.bin {
+   display: block;
+   float: right; 
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+}
+
+#todo {
+    text-align: center;
+    position: relative; 
+    margin-bottom: 40px;
+}
+
+#todo #bar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.info-btn span {
+    background-color: rgba(250, 250, 250, 250);
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+    margin: 20px 35px 0 35px;
+    top: 40px;
+    border: 1px solid rgba(236, 226, 231, 0.8);
+    border-radius: 5px;
+}
+
+#progress {
+    color: blue;
+}
+
+#completed {
+    color: green;
+}
+.task:hover {
+    background-color: rgba(231, 230, 230, 0.8);
+    text-decoration-line: line-through;
+}
+
+.task:hover .tick,  .task:hover .bin{
+    visibility: visible;
+    fill: rgba(250, 250, 250, 250);
+    stroke: rgba(250, 250, 250, 250);
+}
+
+.currentTime {
+    position: absolute;
+    top: -26px;
+    background: #ffffff;
+    color: green;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    /* border: 1px solid rgba(236, 226, 231, 0.8); */
+}
