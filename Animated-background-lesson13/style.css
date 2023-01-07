@@ -30,7 +30,8 @@ div {
     background-color:rgba(255, 255, 255, 0.3);
     position: absolute;
     bottom: 0;
-    animation: animate 25s linear infinite;
+    /* animation: animate 25s linear infinite; */
+    transition: transform 25s linear;
 }
 
 .square1 {
@@ -74,7 +75,11 @@ div {
     animation-duration: 65s;
 }
 
-@keyframes animate {
+body:hover div {
+    transform: translateY(-1000px) rotate(800deg);
+}
+
+/* @keyframes animate {
     0% {
         transform: translateY(0) rotate(0deg);
     }
@@ -82,5 +87,5 @@ div {
     100% {
         transform: translateY(-1000px) rotate(800deg);
     }
-}
+} */
 
