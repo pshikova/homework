@@ -1,0 +1,93 @@
+body {
+    background: palevioletred;
+}
+
+header {
+    display: flex;
+}
+
+header nav, h1 {
+    flex-grow: 1;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li a{
+    display: inline-block;
+    min-width: 50px;
+    text-decoration: none;
+    color:palevioletred;
+    background: white;
+    margin-top: 5px;
+    padding: 5px;
+    scroll-behavior: smooth;
+}
+
+header ul li a:hover {
+    transform: scale(1.5);
+}
+
+main {
+    margin-left: 110px;
+}
+
+#models h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+#models .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#models .item {
+    background: black;
+    color: white;
+    width: 19%;
+    height: auto;
+    padding: 0 10px 1em 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.item h3{
+    font-size: 12px;
+    text-align: right;
+}
+
+.item #separate-title {
+    text-align: left;
+}
+
+.item .image-box {
+    width: 150px;
+    height: 100px;
+}
+
+.item .image-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.item .item-f812 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding-top: 5px;
+}
+
+.item p {
+    font-size: 12px;
+}
+
+
+#f1 p, #history p{
+    background: white;
+    padding: 20px 10px;
+}
