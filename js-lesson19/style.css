@@ -1,0 +1,71 @@
+body {
+    background-image: url("images/purepng.com-wheatwheatgraincerealseed-1411527273658qoqff.png");
+    background-size: 500px 500px;
+    background-attachment: fixed;
+}
+
+#main-img {
+    position: relative;
+}
+
+#main-img-content {
+    margin: 0 auto;
+    width: 98%;
+    height: 500px;
+    position:sticky;
+    top: 0;
+}
+
+.main-gallery-box {
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    height: 500px;
+}
+
+.gallery {
+    width: 25%;
+    height: auto;
+    padding:10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.gallery .box-content {
+    border: 2px solid #ff0000;
+    background: aliceblue;
+    
+}
+
+.box-content .img-text {
+    border-radius: 10px;
+    border-left: 1px solid red;
+    border-bottom: 1px solid red;
+}
+
+.gallery .image {
+    display: block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.gallery .image img, #main-img-content img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border-left: 1px solid red;
+    border-bottom: 1px solid red;
+}
+
+.gallery .image .mock-up {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    color: #ffffff;
+}
