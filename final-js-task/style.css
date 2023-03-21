@@ -4,7 +4,7 @@ body {
 
 .bg-red {
     background: red;
-    border: 5px solid green;
+    border: 5px solid green!important;
 }
 
 #square {
