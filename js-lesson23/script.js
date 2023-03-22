@@ -37,7 +37,7 @@ function setTitle() {
     for(var i = 0; i < 3; i++) {
         var th = document.createElement('th');
         row.appendChild(th);   
-        th.appendChild(document.createTextNode(personData[i]));
+        th.appendChild(document.createTextNode(tableTitle[i]));
     }
 }
 
