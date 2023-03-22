@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form name="myForm">
+        <input type="text" id="fname" name="fname" placeholder="First name"/>
+        <input type="text" id="lname" name="lname" placeholder="Last name"/>
+        <input type="text" id="address" name="address" placeholder="Address"/>
+        <input type="tel" id="phone" pattern="^[0-9\-\+]{9,10}$" required placeholder="Format: 088/078/098">
+        <input type="email" id="email" name="user_email" required placeholder="@superhosting.bg."/>
+        <input type="button" value="Save" id="btn-confirm"/>
+        <input type="button" value="Remove" id="btn-remove"/>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
