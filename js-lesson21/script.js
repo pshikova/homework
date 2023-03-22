@@ -21,14 +21,12 @@ removeBtn.addEventListener('click', removeData);
 function setTitle() {
     var thead = document.createElement('thead');
     table.appendChild(thead);
-    for(var i = 0; i < 1; i++) {
-        var row = document.createElement('tr');
-        thead.appendChild(row);
-        for(var j = 0; j < 3; j++) {
-            var th = document.createElement('th');
-            row.appendChild(th);   
-            th.appendChild(document.createTextNode(tableTitle[j]));
-        }
+    var row = document.createElement('tr');
+    thead.appendChild(row);
+    for(var i = 0; i < 3; i++) {
+        var th = document.createElement('th');
+        row.appendChild(th);   
+        th.appendChild(document.createTextNode(tableTitle[i]));
     }
 }
 
