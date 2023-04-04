@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">Add Record</h1>
+    </header>
+
+    <main>
+        <section class="person-data">
+            <div class="container">
+                
+                <form id="intern-form">
+                    <div class="col">
+                        <label for="name">Intern Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    
+                    <div class="col">
+                        <label for="phone">Telephone(Format: 0885123456)</label>
+                        <input type="tel" id="phone" pattern="^[0-9\-\+]{9,10}$" required>
+                    </div>
+                    
+                    <div class="col">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                   
+                    <div class="col">
+                        <span id="date-error" class="error"></span>
+                        <label for="start-date">Start Date</label>
+                        <input type="date" id="start-date" required>  
+                    </div>
+                    
+                    <div class="col">
+                        <label for="end-date">End Date</label>
+                        <input type="date" id="end-date" required>
+                    </div>
+                    
+                    <div class="col">
+                        <label for="left-days">Day(s) left</label>
+                        <input type="text" id="left-days">
+                    </div>
+                    
+                    <div class="col">
+                        <label for="first-task">First Task</label>
+                        <select name="first-task" id="first-task" required>
+                            <option>Task 1</option>
+                            <option>Task 2</option>
+                            <option>Task 3</option>
+                            <option>Task 4</option>
+                        </select>
+                    </div>
+
+                    <div class="col">
+                        <label for="second-task">Second Task</label>
+                        <select name="second-task" id="second-task" required>
+                            <option>Task 1</option>
+                            <option>Task 2</option>
+                            <option>Task 3</option>
+                            <option>Task 4</option>
+                        </select>
+                    </div>
+                    
+    
+                    <div class="col">
+                        <label for="dept">Department</label>
+                        <select name="dept" id="dept" disabled>
+                            <option>--select a department--</option>
+                        </select>
+                    </div>
+                   
+                    <div class="col">
+                        <label for="mentor">Mentor</label>
+                        <input type="text" id="mentor" required>
+                    </div>
+
+                    <div class="col">
+                        <label for="first-result">First Task Result</label>
+                        <input type="text" id="first-result" value="" disabled>
+                    </div>
+                    
+                    <div class="col">
+                        <label for="second-result">Second Task Result</label>
+                        <input type="text" id="second-result" value="" disabled>
+                    </div>
+
+                    <div class="col person-file">
+                        <label for="person-image">Image</label>
+                        <input type="file" id="person-image" name="person-image" accept=".jpg, .jpeg" required>
+                    </div>
+
+                    <div class="col person-task">
+                        <label for="task-image">Task Images</label>
+                        <input type="file" id="task-image" name="task-image" accept=".jpg, .jpeg" multiple required>
+                    </div>
+
+                    <div class="col-12 form-btn">
+                        <button type="submit" id="btn-cancel">Cancel</button>
+                        <button type="submit" id="btn-add">Add</button>
+                    </div>
+                    <p class="error" id="error-name"></p>
+                    <p class="error" id="error-email"></p>
+                </form>
+            </div>
+        </section>
+        
+    <script src="form.js"></script>
+</body>
+</html>

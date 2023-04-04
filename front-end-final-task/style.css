@@ -1,0 +1,198 @@
+@import url("./design.lib/colors.css");
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+.success-error {
+    padding:8px;
+    background-color: var(--yellow-80);
+}
+
+header .title{
+    text-align: center;
+}
+
+#main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main-header #new-intern {
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    color: var(--white);
+    background: var(--green);
+}
+
+.header-info {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.person-data .container {
+    background: var(--gray-50);
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 0 1rem 0;
+}
+
+.person-data label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+    padding-top: 0;
+}
+
+.person-data .col {
+    display: inline-block;
+    width: 49%;
+    padding: 1rem 0.5rem;
+}
+
+.person-data .col-12 {
+    width: 100%;
+}
+
+.person-data input, .person-data select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--gray-150);
+    border-radius: 5px;
+    background-color: var(--white);
+}
+
+.person-data #person-image, .person-data #task-image {
+    background: var(--gray-100);
+}
+
+.person-data .form-btn button, .btn-delete button{
+    border: none;
+    border-radius: 5px;
+    padding:8px 3rem;
+    margin: 0 0.5rem;
+    color: var(--white);
+}
+
+.person-data .form-btn a{
+    display: inline-block;
+}
+
+.person-data .form-btn #btn-add, #btn-update {
+    background: var(--green);
+    padding:8px 3.5rem;
+}
+
+.person-data .form-btn #btn-cancel, .btn-delete button {
+    background: var(--red);
+}
+
+input:focus {
+    outline: var(--gray-150);;
+}
+
+.error {
+    color: var(--red);
+    border-color: var(--red)!important;
+}
+
+.error-day {
+    color: var(--red);
+}
+
+table {
+    display: flex;
+    border-collapse: collapse;
+}
+
+table tbody {
+    display: flex;
+}
+
+table tr th, tr td {
+    border: 1px solid var(--black);
+    display: block;
+    min-height: 40px;
+}
+
+table tr th {
+    background: var(--gray-50);
+    text-align: left;
+    padding: 8px;
+}
+
+table tr td {
+    padding: 8px 30px;
+    min-width: 250px;
+}
+
+table tr td svg{
+    width: 20px;
+    height: 20px;
+}
+table td .tasks-img {
+    display: block;
+    height: 8px;
+}
+
+table tr td .mentor-logo {
+    display: inline-block;
+    margin-right: 20px;
+    border: 1px solid var(--black);
+    width: calc(5px + 20px);
+    text-align: center;
+    border-radius: 20px;
+}
+
+table thead tr th:nth-child(2) {
+    height: 168px;
+    line-height: 168px;
+    padding: 0 0.5rem;
+}
+
+tbody tr td:nth-child(2) {
+    min-height: 168px;
+}
+
+tbody .imageBox {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+}
+
+.imgBox {
+    width: 200px;
+    height: 150px;
+}
+
+tbody .imageBox img, .imgBox img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width:768px) and (max-width:1023px),  screen and (max-width:768px) and (orientation:landscape) {
+     .person-data .col {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:767px), screen and (orientation: portrait), screen and (max-width:768px) and (orientation:landscape) {
+    .person-data .form-btn button {
+        width: 100%;
+        margin: 0.5rem 0 0 0;
+    }
+    .person-data .col-12 {
+        padding: 0 0.5rem;
+    }
+}
